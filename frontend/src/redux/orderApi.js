@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const orderApi = createApi({
   reducerPath: 'orderApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/api/order' ,credentials: 'include',}),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://book-store-backend-9u3q.onrender.com/api/order' ,credentials: 'include',}),
   tagTypes: ['Orders'],
   endpoints: (builder) => ({
     placeOrder: builder.mutation({
