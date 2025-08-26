@@ -12,7 +12,7 @@ import OrderPage from '../pages/book/OrderPage';
 import StoreStatsPage from '../pages/dashboard/StoreStatsPage';
 import BooksPage from '../pages/dashboard/books/BooksPage'
 import AdminLogin from '../components/AdminLogin';
-import Dashboard from '../pages/dashboard/dashboard';
+import Dashboard from '../pages/dashboard/Dashboard';
 import UsersPage from '../pages/dashboard/users/UsersPage';
 import OrdersPage from '../pages/dashboard/OrdersPage';
 import NewBook from '../pages/dashboard/books/NewBook';
