@@ -19,6 +19,7 @@ app.use(cors({
 }))
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+
 //Routes
 const bookRoutes = require('./src/model/book/book.routes')
 const userRoutes = require('./src/model/user/user.routes')
